@@ -1,0 +1,94 @@
+*{
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /*Chrome & Safari */
+    box-sizing: border-box;
+    -moz-user-select:none; /* Firefox */
+    -webkit-user-select:none; /*Chrome & Safari */
+    user-select: none;
+}
+
+body{
+    /* margin is space between two elements */
+    margin: 0; 
+}
+
+/* canvas are inline by :default */
+canvas{
+    display: block;
+}
+
+#toolbar {
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    background-color: rgb(4, 107, 104);
+    overflow: auto;
+}
+
+#colors {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    white-space: nowrap;
+    color: white;
+}
+
+#range {
+    position: relative;
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    white-space: nowrap;
+    margin-right: 20px;
+    color: white;
+}
+
+#myColor, #myRange {
+    cursor: pointer;
+}
+
+#brush, #erase {
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 40px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+
+}
+
+#brush{
+    margin-right: 20px;
+}
+#reset, #save {
+    position: relative;
+    float: right;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#reset {
+    height: 30px;
+    width: 80px;
+    margin-right: 15px;
+}
+
+#save {
+    height: 30px;
+    width: 70px;
+    margin-right: 10px;
+
+}
