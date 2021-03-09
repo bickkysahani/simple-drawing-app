@@ -92,3 +92,50 @@ canvas{
     margin-right: 10px;
 
 }
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(4, 107, 104);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+ }
+
+ .fa {
+
+    padding: 5px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    margin-top: 0px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-github {
+    background:#211F1F;
+    color: white;
+  }
+  
+#text{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 17px;
+}

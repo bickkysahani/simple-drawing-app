@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple drawing app</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- div elements are block elements because they take the entire width of the page -->
+    <div id="toolbar">
+        <div id="colors">Colors: <input type="color" value="black" name="myColor" id="myColor"></div>
+        <div id="range">Size: 1<input type="range" value="5" min="1" max="50" id="myRange">50</div>
+        <button id="brush"><img src="images/brush.png" alt=""></button>
+        <button id="erase"><img src="images/eraser.png" alt=""></button>
+        <a href="" id="savelink"><button id="save">Save</button></a>
+        <button id="reset">Reset</button>
+        <br>
+    </div>
+    <canvas id="canvas">Your browser doesnot support Canvas. Please upgrade it</canvas>
+    <div id="footer">
+        <p id="text"> Made with ❤️ by Bickky.</p>
+        <a href="https://www.facebook.com/bickkysahani/" target='_blank' class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com/in/bickkysahani/" target='_blank' class="fa fa-linkedin"></a>
+        <a href="https://github.com/bickkysahani" target='_blank' class="fa fa-github"></a>
+      </div>
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
